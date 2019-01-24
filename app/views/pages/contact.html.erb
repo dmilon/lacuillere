@@ -1,0 +1,15 @@
+<h1>Pages#contact</h1>
+<p>Find me in app/views/pages/contact.html.erb</p>
+
+<!-- ERB => Embedded Ruby -->
+
+<!-- er => <%  %> -->
+<!-- pe => <%=  %> -->
+
+<p><%= Time.now %></p>
+
+<ul>
+  <% ['indian', 'french', 'japanese'].each do |food_type| %>
+    <li><%= food_type %></li>
+  <% end %>
+</ul>
